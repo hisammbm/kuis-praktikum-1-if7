@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -45,27 +45,27 @@ div.col-3 > button.btn {
 }
 
 div.col-3 > button.btn.btn-angka {
-    background-color: #F0F0F2;
+    background-color: #f0f0f2;
     color: black;
 }
 
 div.col-6 > button.btn.btn-angka {
-    background-color: #F0F0F2;
+    background-color: #f0f0f2;
     color: black;
 }
 
 div.col-3 > button.btn.btn-others {
-    background-color: #C4C4C4;
+    background-color: #c4c4c4;
     color: black;
 }
 
 div.col-6 > button.btn.btn-others {
-    background-color: #C4C4C4;
+    background-color: #c4c4c4;
     color: black;
 }
 
 div.col-3 > button.btn.btn-operator {
-    background-color: #FD9C11;
+    background-color: #fd9c11;
     color: black;
 }
 
