@@ -14,8 +14,8 @@
     </head>
     <body>
         <div class="container d-flex justify-content-center align-items-center">
-            <div class="main">
-                <div class="calculator shadow d-flex flex-column">
+            <div class="main d-flex flex-column">
+                <div class="calculator d-flex flex-column position-absolute">
                     <div
                         class="result px-4 py-2 d-flex flex-column align-items-end justify-content-end"
                     >
@@ -26,12 +26,12 @@
                         ></div>
                         <div
                             data-current-operand
-                            class="number m-0"
+                            class="number m-0 text-truncate"
                             id="number1"
                         ></div>
                     </div>
-                    <div class="buttons px-3 py-2 mb-1">
-                        <div class="row g-1">
+                    <div class="buttons px-3 py-2">
+                        <div class="row g-2">
                             <div class="col-3">
                                 <button
                                     data-all-clear
@@ -51,7 +51,7 @@
                             <div class="col-3">
                                 <button
                                     data-operation
-                                    class="btn rounded-circle shadow-sm btn-others"
+                                    class="btn rounded-circle shadow-sm btn-operator"
                                 >
                                     %
                                 </button>
@@ -187,6 +187,7 @@
                         </div>
                     </div>
                 </div>
+                <span class="mt-auto mb-3">&copy; Kelompok Melati</span>
             </div>
         </div>
     </body>
